@@ -18,15 +18,10 @@
   align-items: center;
 }
 
-
 .menu-act .sub-menu {
   display: flex;
 }
 
-
-.sub-menu > li {
-
-}
 /* 메인 콘텐츠 */
 .main{
   display: flex;
