@@ -1,25 +1,17 @@
-/* 맴버 링크 */
-.member {
+/* 멤버 링크 */
+.member{
   display: flex;
   justify-content: flex-end;
   position: relative;
   right: -0.5em;
-  
 }
 
-/* main */
-.main {
-  height: 60vh;
+/* 메인 콘텐츠 */
+.main{
   display: flex;
-  flex-flow : row nowrap;
+  flex-flow: row nowrap;
+  height: 60vh;
 }
-
-.group {
-  margin : 0 15px;
-}
-
-/* slogan */
-.slogan {
-  background-color: coral;
-  height: 10vh;
+.group{
+  margin: 0 15px;
 }
