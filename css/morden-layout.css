@@ -5,13 +5,35 @@
   position: relative;
   right: -0.5em;
 }
+/* 네비게이션 */
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+
+.menu-act .sub-menu {
+  display: flex;
+}
+
+
+.sub-menu > li {
+
+}
 /* 메인 콘텐츠 */
 .main{
   display: flex;
   flex-flow: row nowrap;
   height: 60vh;
 }
+
 .group{
   margin: 0 15px;
 }

@@ -20,12 +20,68 @@
   position: relative;
   right: -0.5em;
 }
+
+/* 로고 */
+.logo{
+  position: absolute;
+  top: 45px;
+  left: 70px;
+}
+
 /* 멤버 링크 */
+.member {
+  margin-bottom: 2px;
+}
+
 .member a{
   display: inline-block;
   text-transform: uppercase;
   padding: 0.5em;
 }
+
+/* 네비게이션 */
+.navigation {
+  background-color:yellow;
+  padding-bottom: 50px;
+}
+
+.menu {
+  border-top : 2px solid #181818;
+  height: 50px;
+  padding-left: 240px;
+  background: rgb(255,169,70);
+  background: linear-gradient(180deg, rgba(255,169,70,1) 0%, rgba(251,130,0,1) 35%, rgba(251,130,0,1) 70%, rgba(255,169,70,1) 100%);
+}
+
+.menu-item {
+  border-left: 2px solid rgba(255,255,255,0.5);
+  position: relative;
+}
+
+.btn-menu {
+  text-shadow: 1px 0 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000, 0 -1px 0 #000000 ;
+  color : #fff;
+  font-weight: 700;
+  font-size : 1.6rem;
+  padding : 1.0em;
+}
+
+.sub-menu {
+  background-color: pink;
+  display: none;
+  position: absolute;
+  white-space: nowrap;
+  top : 52px;
+  
+}
+
+.sub-menu1, .sub-menu2 , .sub-menu3 {
+  left : 0;
+}
+.sub-menu4 , .sub-menu5  , .sub-menu6 {
+  right : 0;
+}
+
 /* 비주얼 */
 .visual{
   background-color: lime;
