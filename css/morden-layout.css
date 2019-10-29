@@ -1,0 +1,25 @@
+/* 맴버 링크 */
+.member {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: -0.5em;
+  
+}
+
+/* main */
+.main {
+  height: 60vh;
+  display: flex;
+  flex-flow : row nowrap;
+}
+
+.group {
+  margin : 0 15px;
+}
+
+/* slogan */
+.slogan {
+  background-color: coral;
+  height: 10vh;
+}

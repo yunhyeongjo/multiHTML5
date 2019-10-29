@@ -1,11 +1,11 @@
-  
 *, *::before, *::after {
   box-sizing: border-box;
   
   }
   /*  컨테이너 */
   .container {
-    background-color: yellow;
+  background-color: #ccc;
+  background-image: linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 60%, #fff 100%);
   } 
   /* 레이아웃 */
   .header, .visual, .main, .slogan, .footer {
@@ -15,8 +15,18 @@
   }
   /* 헤더 */
   .header {
-    background-color: pink;
+    background-color: #fff;
+    position: relative;
+    padding: 2px 30px 10px 30px;
+    right: -0.5em;
+  }
 
+  /* 맴버링크 */
+  .member a {
+    display: inline-block;
+    text-transform: uppercase;
+    padding : 0.5em;
+  
   }
   
   /* visual */
@@ -24,17 +34,11 @@
     background-color: lime;
     height: 120px;
   }
-  
+
   /* main */
   .main {
-    background-color: blue;
+    background-color: #fff;
     padding : 30px 15px;
-  }
-
-  .group {
-    margin : 0px 15px;
-    float: left;
-    min-height: 400px;
   }
 
   .group1{
@@ -49,6 +53,7 @@
     background-color: teal;
     width: 190px;
   }
+  
   /* slogan */
   .slogan {
     background-color: coral;
@@ -56,8 +61,14 @@
   }
   
   /* footer */
+
+  .footer-bg {
+    background-color: #ccc;
+    background-image: linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 60%, #fff 100%);
+  }
+
+  
   .footer {
     background-color:violet;
     height: 10vh;
   }
-  
