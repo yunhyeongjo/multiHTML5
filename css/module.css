@@ -4,3 +4,14 @@
   clear: both;
   content: "";
 }
+
+/* 숨김 컨텐츠 */
+.a11y-hidden {
+  background: aqua;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0); 
+  clip-path: polygon(0 0,0 0,0 0);
+}
