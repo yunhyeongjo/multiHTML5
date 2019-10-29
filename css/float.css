@@ -1,0 +1,63 @@
+  
+*, *::before, *::after {
+  box-sizing: border-box;
+  
+  }
+  /*  컨테이너 */
+  .container {
+    background-color: yellow;
+  } 
+  /* 레이아웃 */
+  .header, .visual, .main, .slogan, .footer {
+    width: 940px;
+    margin-left : auto;
+    margin-right: auto;
+  }
+  /* 헤더 */
+  .header {
+    background-color: pink;
+    height: 10vh;
+  }
+  
+  /* visual */
+  .visual {
+    background-color: lime;
+    height: 120px;
+  }
+  
+  /* main */
+  .main {
+    background-color: blue;
+    padding : 30px 15px;
+  }
+
+  .group {
+    margin : 0px 15px;
+    float: left;
+    min-height: 400px;
+  }
+
+  .group1{
+    background-color: silver;
+    width: 250px; 
+  }
+  .group2{
+    background-color: tan;
+    width: 380px;
+  }
+  .group3{
+    background-color: teal;
+    width: 190px;
+  }
+  /* slogan */
+  .slogan {
+    background-color: coral;
+    height: 10vh;
+  }
+  
+  /* footer */
+  .footer {
+    background-color:violet;
+    height: 10vh;
+  }
+  
