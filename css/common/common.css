@@ -248,6 +248,26 @@ label[for="user-id"] , label[for="user-pw"]{
 
 }
 
+/* 유효성 검사 배너 */
+
+.validataion-list {
+  margin-top : 25px;
+}
+
+.validataion-list a {
+  display: block;
+  background : 
+    url(../images/validation_icon.png) no-repeat 2em 50%, 
+    linear-gradient(#ccc,#eee) repeat 0 0;
+  border-radius: 15px;
+  border : 1px solid #aaa;
+  line-height: 30px;
+  margin-top: 10px;
+  padding-left: 4em;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
 /* .login-heading {
   color : yellow;
   font-weight: 600;
