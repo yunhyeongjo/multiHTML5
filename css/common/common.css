@@ -2,6 +2,7 @@
 *, *::before, *::after{
   box-sizing: border-box;
 }
+
 /* 컨테이너 */
 .container{
   background-color: #ccc;
@@ -12,6 +13,7 @@
   width: 940px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 /* 헤더 */
 .header{
@@ -162,7 +164,6 @@
   padding: 30px 15px;
 }
 .group1{
-  background-color: silver;
   width: 250px;
 }
 .group2{
@@ -178,7 +179,98 @@
 .login {
   background-image: radial-gradient(circle at right top, rgba(255,169,70,1),  rgba(251,130,0,1));
   border-radius: 5px;
+  box-shadow: 5px 5px 0 0 #ccc;
+  padding : 10px;
 }
+
+.login-heading {
+  color : yellow;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-left: 1em;
+}
+
+.login-form, .sign {
+  background-color: white;
+}
+
+.login-form {
+  margin-top: 8px;
+  border-radius: 5px 5px 0 0;
+  padding : 10px 10px 5px 10px;
+}
+
+.login-form fieldset {
+  position: relative;
+  border-bottom: 1px solid #aaa;
+  padding : 5px;
+}
+
+.btn-login {
+  position: absolute;
+  top : 0px;
+  right: 0px;
+  width: 50px;
+  height: 54px;
+  border: 1px solid orange;
+  border-radius: 3px;
+  color : #fff;
+  background-color :  rgba(255,169,70,1);
+  padding : 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.sign {
+  border-radius: 0px 0px 5px 5px;
+  padding : 0px 10px 5px 10px;
+  font-size: 1.2rem;
+}
+
+.user-id , .user-pw {
+  margin-bottom: 5px;
+}
+
+input[name="userEmail"], input[name="userPwd"] {
+  border: 1px solid #aaa;
+  height: 24px;
+  width: 90px;
+  padding-left: 0.5em;
+}
+
+label[for="user-id"] , label[for="user-pw"]{
+  width: 4em;
+  display: inline-block;
+}
+
+.sign a::before {
+  color :  rgba(251,130,0,1);
+
+}
+
+/* .login-heading {
+  color : yellow;
+  font-weight: 600;
+  padding : 10px 20px;
+  
+}
+
+#user-id, #user-pw {
+  width: 100px;
+  margin : 5px;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form, .sign {
+  background-color: white;
+  margin : 0 10px 0 10px;
+
+} */
+
 
 /* 슬로건 */
 .slogan{
