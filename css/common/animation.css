@@ -12,3 +12,15 @@
     color : rgba(0,0,0,1);
   }  /* 어디까지  */
 }
+
+/* 배경애니메이션 */
+
+@keyframes bg-ani {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+
+}
