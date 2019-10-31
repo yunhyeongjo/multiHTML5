@@ -337,6 +337,29 @@ label[for="user-id"] , label[for="user-pw"]{
 label[for="search"] {
   font-weight: 400;
 }
+/* 공지사항 & 자료실 탭 */
+
+.board {
+  margin-top : 20px;
+}
+
+.board-plus .icon-plus::before {
+  color: green;
+
+}
+
+.board-plus {
+  float : right
+
+}
+
+.notice-table td {
+  border: 1px solid black;
+}
+
+.notice-heading {
+}
+
 
 
 /* 슬로건 */
