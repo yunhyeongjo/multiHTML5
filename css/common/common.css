@@ -267,29 +267,81 @@ label[for="user-id"] , label[for="user-pw"]{
   padding-top: 2px;
   font-weight: 300;
 }
+/* 웹 관련 용어 */
+.term {
+  margin-top: 20px;
+  border : 1px solid #aaa;
+  border-radius: 5px;
+  padding : 15px;
+  background: #ccc linear-gradient(to bottom,#ccc,#eee);
+}
 
-/* .login-heading {
-  color : yellow;
+.term-heading {
+  font-size : 1.6rem;
+  font-weight: 700;
+}
+
+.term-list {
+  margin-top : 10px;
+}
+
+.term-list-subject {
+  color : #296897;
+  margin-top : -4px;
+  font-weight : 400;
+}
+
+.term-list-subject, .term-brief  {
+  float : right;
+  width: 145px;
+}
+
+.term-thumbnail {
+  float : left;
+}
+
+.term-thumbnail img {
+  vertical-align: top;
+
+}
+
+.term-brief {
+  line-height: 1.5em;
+}
+/* .term {
+  background: linear-gradient(to bottom,#ccc,#eee);
+  margin: 20px 0px;
+  border-radius: 5px;
+  border : 1px solid #aaa;
+}
+.term-heading {
+  padding : 10px;
+  font-weight: 700;
+  font-size : 1.1em;
   font-weight: 600;
-  padding : 10px 20px;
-  
 }
 
-#user-id, #user-pw {
-  width: 100px;
-  margin : 5px;
+.term-list .term-list-subject {
+  display: inline-block;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 15px;
+  color : #296897;
+  font-weight: 500;
 }
 
-.login-form {
-  display: flex;
-  justify-content: center;
+.term-list .term-brief a {
+  padding-top : 5px;
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.login-form, .sign {
-  background-color: white;
-  margin : 0 10px 0 10px;
-
+.term-thumbnail {
+  float: left;
+  padding-top : 10px;
+  padding-right: 15px;
 } */
+
 
 
 /* 슬로건 */
