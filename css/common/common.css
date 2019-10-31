@@ -167,7 +167,6 @@
   width: 250px;
 }
 .group2{
-  background-color: tan;
   width: 380px;
 }
 .group3{
@@ -308,40 +307,36 @@ label[for="user-id"] , label[for="user-pw"]{
 .term-brief {
   line-height: 1.5em;
 }
-/* .term {
-  background: linear-gradient(to bottom,#ccc,#eee);
-  margin: 20px 0px;
-  border-radius: 5px;
+/*  검색폼  */
+
+.search-form {
+  background: #ccc linear-gradient(to bottom, #ccc, #eee);
   border : 1px solid #aaa;
-}
-.term-heading {
-  padding : 10px;
-  font-weight: 700;
-  font-size : 1.1em;
-  font-weight: 600;
+  border-bottom : 0;
+  border-radius: 15px 15px 0 0;
+  padding : 15px 20px 10px; 
 }
 
-.term-list .term-list-subject {
-  display: inline-block;
-  padding-top: 5px;
-  text-align: center;
-  font-size: 15px;
-  color : #296897;
-  font-weight: 500;
+[type="search"], .btn-search{
+  border : 1px solid #aaa;
+  border-radius : 3px;
+  height: 24px;
 }
 
-.term-list .term-brief a {
-  padding-top : 5px;
-  font-size: 15px;
+[type="search"] {
+  padding-left: 0.5em;
+  width: 200px;
+}
+
+.btn-search {
+  background: #333;
+  color: #fff;
+  padding : 0 1.0em;
+}
+
+label[for="search"] {
   font-weight: 400;
 }
-
-.term-thumbnail {
-  float: left;
-  padding-top : 10px;
-  padding-right: 15px;
-} */
-
 
 
 /* 슬로건 */

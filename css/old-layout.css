@@ -42,3 +42,8 @@
   float: left;
   min-height: 400px;
 }
+
+/* 검색폼 */
+[type="search"] {
+  margin : 0 2px;
+}
