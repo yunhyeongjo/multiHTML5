@@ -404,11 +404,43 @@ label[for="search"] {
 .notice-list time, .pds-list time {
 }
 
+/* 뉴스 영역 */
+.news {
+  margin-top: 20px;
+}
+
+.news-heading {
+  font-weight: 600;
+  font-size : 1.1em;
+  color : orange;
+  padding-bottom: 10px;
+  border-bottom : solid;
+  border-image : linear-gradient(to right,#ccc, #eee);
+  border-image-slice: 1;
+}
+
+.news-item {
+  border-image-width: 20px 0 0 0;
+  position: relative;
+}
+
+.news-item-subject {
+  /* position: absolute;
+  right: 10px;    */
+
+}
+
+.news-item-thumbnail {
+  position: absolute;
+  left: 0;
+}
+
 /* 슬로건 */
 .slogan{
   background-color: coral;
   height: 10vh;
 }
+
 /* 푸터 */
 .footer-bg{
   background-color: #ccc;
