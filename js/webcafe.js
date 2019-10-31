@@ -2,6 +2,7 @@ var member_lists = $('.member li:nth-child(n+2)');
 var btn_menu = $('.btn-menu');
 var submenu_list = $('.sub-menu li');
 var menu_items = $('.menu-item');
+var board = $('.board section');
 
 member_lists.prepend('<span aria-hidden="true">:</span>');
 submenu_list.addClass('icon-dot-circled');

@@ -21,7 +21,7 @@
 .main{
   display: flex;
   flex-flow: row nowrap;
-  height: 60vh;
+  min-height: 400px;
 }
 
 /* 로그인 */
@@ -37,6 +37,18 @@
   align-items: center;
 }
 
+/* 공지사항 및 자료실 */
+
+.notice-list li, .pds-list li{
+  display: flex;
+  justify-content: space-between;
+  margin-top : 0.5em;
+  white-space: nowrap;
+
+}
+
+
+/* 그룹핑 */
 .group{
   margin: 0 15px;
 }

@@ -339,28 +339,70 @@ label[for="search"] {
 }
 /* 공지사항 & 자료실 탭 */
 
-.board {
-  margin-top : 20px;
-}
-
-.board-plus .icon-plus::before {
-  color: green;
-
-}
-
-.board-plus {
-  float : right
-
-}
-
-.notice-table td {
-  border: 1px solid black;
+.notice-heading, .pds-heading {
+  position : absolute;
+  top : 0;
 }
 
 .notice-heading {
+  left: 0;
 }
 
+.pds-heading {
+ left: 81px;
+}
 
+.tab {
+  display: block;
+  border-radius: 5px 5px 0 0;
+  border : 1px solid #aaa;
+  border-bottom: 0;
+  background: #ccc linear-gradient(#ccc,#eee);
+  padding: 0.5em 1em;
+  color : #666
+}
+
+.tab-act .tab {
+  color : rgba(251,130,0,1);
+  background: #fff;
+  border-color: rgba(251,130,0,1) rgba(251,130,0,1) #fff rgba(251,130,0,1);
+}
+
+.board {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 45px;
+}
+
+.notice-list, .notice-more, .pds-list, .pds-more {
+  display: none;
+}
+
+.tab-act .notice-list, .tab-act .notice-more,.tab-act .pds-list,.tab-act .pds-more 
+{
+  display: block;
+}
+
+.more::before {
+  color : green;
+  color: hsla(110, 30%, 40%, 1);
+}
+
+.notice-more, .pds-more {
+  position : absolute;
+  right : -0.5em;
+  top : -0.5em;
+  padding : 0.5em;
+}
+
+.notice-list a , .pds-list a {
+  width: 290px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.notice-list time, .pds-list time {
+}
 
 /* 슬로건 */
 .slogan{
