@@ -536,6 +536,7 @@ label[for="search"] {
 .favorite {
   padding: 10px;
   margin-top: 20px;
+  position: relative;
 }
 
 .favorite-heading {
@@ -543,17 +544,55 @@ label[for="search"] {
   font-weight : 700;
 }
 
-.favorite-number {
-  border: 1px solid #aaa;
-  padding: 5px;
-
-}
 
 .favorite-list li {
-  line-height: 1.8rem;
-  margin-top: 10px;
+  margin-top: 0.3em;
+  counter-increment: number;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.favorite-list li::before {
+  content : counter(number);
+  background: #999;
+  color : #fff;
+  font-size : 1.2rem;
+  padding: 0px 0.5em 2px;
+  margin-right: 0.5em;
+  border-radius: 2px;
+}
+
+.favorite-list {
+  margin-top: 10px;
+  list-style: none;
+  counter-reset: none;
+}
+
+.up, .stop, .down {
+  width: 9px;
+  height: 11px;
+  margin-left : auto;
+  background: url('../images/rank.png') no-repeat;
+  white-space: nowrap;
+  text-indent: 10px;
+  overflow: hidden;
+}
+
+.stop {
+  background-position: 0 50%;
+}
+
+.down {
+  background-position: 0 100%;
+}
+
+.favorite-more {
+  position: absolute;
+  right: 3px;
+  top : 3px;
+  padding : 0.5em
+}
 
 /* 슬로건 */
 .slogan{
