@@ -5,6 +5,7 @@ var menu_items = $('.menu-item');
 var sections = $('.board section');
 var tabs = $('.tab');
 
+
 member_lists.prepend('<span aria-hidden="true">:</span>');
 submenu_list.addClass('icon-dot-circled');
 btn_menu.attr('role','button');
@@ -27,3 +28,5 @@ tabs.on('click',function(e){
   sections.removeClass('tab-act');
   $(this).parent().parent().addClass('tab-act');
 })
+
+

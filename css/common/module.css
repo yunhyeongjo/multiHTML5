@@ -13,3 +13,15 @@
   clip: rect(0,0,0,0);
   clip-path: polygon(0 0,0 0,0 0);
 }
+
+.gradient-box {
+  background :  #ccc linear-gradient(to top, #ccc,#eee);
+  border-radius: 5px;
+  padding: 10px;
+  border : #aaa solid 1px;
+}
+
+.point-color {
+  color : rgba(251,130,0,1);
+
+}

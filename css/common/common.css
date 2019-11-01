@@ -170,7 +170,6 @@
   width: 380px;
 }
 .group3{
-  background-color: teal;
   width: 190px;
 }
 
@@ -407,33 +406,154 @@ label[for="search"] {
 /* 뉴스 영역 */
 .news {
   margin-top: 20px;
-}
-
-.news-heading {
-  font-weight: 600;
-  font-size : 1.1em;
-  color : orange;
-  padding-bottom: 10px;
-  border-bottom : solid;
-  border-image : linear-gradient(to right,#ccc, #eee);
-  border-image-slice: 1;
-}
-
-.news-item {
-  border-image-width: 20px 0 0 0;
   position: relative;
 }
 
-.news-item-subject {
-  /* position: absolute;
-  right: 10px;    */
-
+.news::before {
+  content: "";
+  position : absolute;
+  top : 35px;
+  left : 0;
+  width: 80%;
+  height: 2px;
+  background: #ccc linear-gradient(#ccc,#aaa);
 }
 
+.news-heading {
+  color :  rgba(251,130,0,1);
+  font-weight: 700;
+  font-size : 1.5rem;
+}
+
+.news-item {
+  margin-top: 35px;
+  padding-left: 130px;
+  min-height: 110px;
+}
+
+.news-item-subject {
+  font-weight: 700;
+}
+
+.news-item-summary {
+  margin-top: 0.5em;
+  line-height: 1.5;
+}
 .news-item-thumbnail {
   position: absolute;
-  left: 0;
+  left: 5px;
+  top : 63px;
+  text-align: center;
 }
+
+.news-item-thumbnail img {
+  margin-bottom: 1em;
+  box-shadow: #ccc 0 15px 15px 8px;
+}
+
+.news-more {
+  position: absolute;
+  top : -0.5em; 
+  right: -0.5em;
+  padding: 0.5em;
+}
+
+
+/* 신규 이벤트 */
+
+.event-heading, .related-heading  {
+  font-size: 1.5rem;
+  font-weight : 700;
+}
+
+.related {
+   border-top : 1px #aaa solid;
+   padding-top: 0.5em;
+}
+
+.related-list {
+  margin-top : 10px;
+  background: #fff;
+  border: 1px solid #aaa;
+  padding: 2px 1em 2px;
+  border-radius: 5px 5px;
+  line-height: 1.7em;
+  height: 27px;
+  overflow: hidden;
+  transition: all 400ms;
+} 
+
+.related a {
+  display: block;
+  line-height: 21px;
+}
+
+.event-thumbnail {
+  margin-top : 10px;
+}
+
+.event-thumbnail img {
+  border : 1px solid #aaa;
+  box-shadow: #999 5px 5px 0 0;
+  margin-bottom: 5px;
+} 
+
+.event {
+  position: relative;
+}
+
+.related {
+  margin-top : 10px
+
+}
+.btn-event-wrapper {
+  position: absolute;
+  top : 3px;
+  right : 0px;
+}
+
+
+.btn-event-prev, .btn-event-next  {
+  background: url("../images/back_forward.png") no-repeat 0 0;
+  display: inline-block;
+  width: 19px;
+  height: 18px;
+  border : 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.btn-event-wrapper .btn-event-next  {
+  background-position: -36px 0;
+}
+
+.related-list:hover {
+  height: 120px;
+  padding: 0.5em 1em;
+}
+
+/* 인기 사이트 */
+.favorite {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.favorite-heading {
+  font-size: 1.5rem;
+  font-weight : 700;
+}
+
+.favorite-number {
+  border: 1px solid #aaa;
+  padding: 5px;
+
+}
+
+.favorite-list li {
+  line-height: 1.8rem;
+  margin-top: 10px;
+}
+
 
 /* 슬로건 */
 .slogan{
